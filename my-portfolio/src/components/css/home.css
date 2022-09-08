@@ -1,3 +1,19 @@
 body {
-    background-color: aquamarine;
+    background-color: #282424;
+}
+
+#image_mov{
+    width:12%;
+    height: auto;
+    float: right;
+}
+
+.intro_text{
+    color:aliceblue;
+}
+
+#intro_text_box{
+    color: transparent;
+    font-family:cursive;
+    float:left;
 }
