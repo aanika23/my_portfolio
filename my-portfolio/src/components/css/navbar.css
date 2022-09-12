@@ -1,7 +1,7 @@
-**::after, **::before {
+/***::after, **::before {
     margin: 0;
     box-sizing: border-box;
-}
+}*/
 
 html{
     font-size: 62.5%;
@@ -23,14 +23,15 @@ a{
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 5vh;
+    justify-content: space-between;
+    height: 7vh;
     background:black;
 }
 
 .nav__logo{
-    text-transform: uppercase;
-    font-weight: bold;
+    margin-left: 3rem;
+    font-size: 4vh;
+    font-family: 'Lobster';
 }
 
 .nav__menu{
@@ -38,6 +39,7 @@ a{
     align-items: cneter;
     justify-content: space-around;
     gap: 3rem;
+    margin-right: 2rem;
 }
 
 .nav__toggler div{
@@ -52,22 +54,45 @@ a{
     display: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
     .nav__toggler{
         display: block;
     }
     .nav__menu{
         position:fixed;
         top:5vh;
-        right:0;
+        right:-2rem;
         width:50%;
         height:93vh;
         background: black;
         flex-direction: column;
-        transform: translateX(100%);
+        transform: translateX(110%);
     }
 }
 
 .nav__active{
     transform: translateX(0);
+}
+
+.nav__link {
+    font-size: large;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav__link:hover{
+    color: white;
+    background-color:purple;
+}
+
+.nav__link__box a{
+    padding-bottom: 26px;
+    padding-top:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.nav__logo:hover{
+    color:white;
 }
