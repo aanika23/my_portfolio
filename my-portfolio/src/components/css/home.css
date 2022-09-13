@@ -34,8 +34,29 @@ body {
 
 #info_container{
     font: white;
-    background-color: aqua;
-    margin-top: -27vh;
+    background-color: black;
+    margin-top: -25vh;
+    position:absolute;
+    right: 100%;
     height:50vh;
-    position:inherit;
+    width:150vh;
+    opacity: 0.4;
+}
+
+.traits {
+    color: white;
+    font-family: 'Amatic SC';
+    margin-left: 1vh;
+    font-size: 2.5vh;
+}
+
+.header_traits{
+    margin-left: 1vh;
+    color:white;
+    font-family: 'Lobster';
+    font-size: 4vh;
+}
+
+#trait_container{
+    margin-top: 7vh;
 }
