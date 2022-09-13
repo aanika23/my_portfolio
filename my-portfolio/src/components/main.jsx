@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Image_body from './image_body';
 import Navbar from './navbar';
+import Home_animation from './Home_animation';
 import './css/home.css';
 
 export default class Main extends Component {
@@ -9,6 +9,7 @@ export default class Main extends Component {
         return (
            <div id="container">
                 <Navbar />
+                <Home_animation />
            </div>
         );
     }

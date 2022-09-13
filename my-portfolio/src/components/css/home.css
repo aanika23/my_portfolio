@@ -22,6 +22,20 @@ body {
     float:left;
 }
 
-/* #container{
-    background-image: url('../image/pexels-christina-morillo-1181271.jpg');
-} */
+#home_logo{
+    width: 40vh;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#info_container{
+    font: white;
+    background-color: aqua;
+    margin-top: -27vh;
+    height:50vh;
+    position:inherit;
+}
