@@ -82,7 +82,7 @@ a{
 
 .nav__link:hover{
     color: white;
-    background-color:purple;
+    background-color:rgb(101, 35, 101);
 }
 
 .nav__link__box a{
