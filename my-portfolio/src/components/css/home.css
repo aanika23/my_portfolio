@@ -1,0 +1,27 @@
+body {
+    background: url('../image/pexels-hasan-albari-1229861.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#image_mov{
+    width:12%;
+    height: auto;
+    float: right;
+}
+
+.intro_text{
+    color:aliceblue;
+}
+
+#intro_text_box{
+    color: transparent;
+    font-family:cursive;
+    float:left;
+}
+
+/* #container{
+    background-image: url('../image/pexels-christina-morillo-1181271.jpg');
+} */
