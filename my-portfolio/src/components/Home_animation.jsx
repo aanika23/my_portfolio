@@ -19,7 +19,7 @@ export default function Home_animation()  {
         await animation.start({
             height:"50vh",
             width:"70vh",
-            opacity: 0.5,
+            background: "rgb(0,0,0,0.5)"
         })
     }
 
@@ -37,7 +37,7 @@ export default function Home_animation()  {
                 <img src={home_logo} id="home_logo"></img>
             </motion.div>
             <motion.div id="info_container" animate={{
-                x:"220vh",
+                left: "34%"
             }}
             transition={{
                 delay:'3.5',
