@@ -46,16 +46,66 @@ body {
     color: white;
     font-family: 'Amatic SC';
     margin-left: 1vh;
-    font-size: 2.5vh;
+    font-size: 4vh;
 }
 
 .header_traits{
     margin-left: 1vh;
     color:white;
     font-family: 'Lobster';
-    font-size: 4vh;
+    font-size: 6vh;
 }
 
 #trait_container{
-    margin-top: 7vh;
+    visibility: hidden;
+    margin-top: 30vh;
+    background-color: rgb(0,0,0,0.5);
+    animation: intro_text_move;
+    animation-fill-mode: forwards;
+    animation-delay:1000ms;
+    animation-duration: 1500ms;
+}
+
+
+#welcome_gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20vh;
+    margin-left: -40vh;
+    animation:gif_move;
+    animation-delay:2000ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+@keyframes intro_text_move {
+    0% {
+        transform: translateX(-100%);
+    }
+    99% {
+        visibility: hidden;
+        transform: translateX(29%);
+    }
+    100%{
+        transform: translateX(30%);
+        visibility: visible;
+    }
+}
+
+@keyframes gif_move{
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-90%);
+    }
+}
+
+@keyframes intro_text_show {
+    99% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
 }

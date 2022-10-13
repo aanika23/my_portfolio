@@ -1,6 +1,7 @@
 import React, { Component, useEffect } from 'react';
 import home_logo from "./image/main_page_logo.png"
 import {motion, useAnimation} from 'framer-motion'
+import welcome_gif from "./image/giphy.gif"
 
 export default function Home_animation()  {
     const state = {  } 
@@ -8,49 +9,19 @@ export default function Home_animation()  {
         background: 'black',
         height: '100vh',
     }
-    const animation = useAnimation();
-
-    async function sequence() {
-        await animation.start({
-            height:"50vh",
-            y:"25vh",
-            opacity: 1,
-        });
-        await animation.start({
-            height:"50vh",
-            width:"70vh",
-            background: "rgb(0,0,0,0.5)"
-        })
-    }
-
-    useEffect(() => {
-        sequence();
-      }, []);
     
     return (
         <div id="home_container">
-            <motion.div id="logo_container" style={styles} animate={animation}
-            transition={{
-                delay: '0.5',
-                duration: '2'
-            }}>
-                <img src={home_logo} id="home_logo"></img>
-            </motion.div>
-            <motion.div id="info_container" animate={{
-                left: "34%"
-            }}
-            transition={{
-                delay:'3.5',
-                duration: '2'
-            }}>
+                <div id="welcome_gif_container">
+                    <img id="welcome_gif" src={welcome_gif}/>
+                </div>
                 <div id="trait_container">
                     <p class="header_traits">Hi, I am Anika Sheikh!</p>
-                    <motion.p class="traits">Funny</motion.p>
-                    <motion.p class="traits">Funnier Than Riku</motion.p>
-                    <motion.p class="traits">Better than riku</motion.p>
-                    <motion.p class="traits">Funny</motion.p>
+                    <p class="traits">Funny</p>
+                    <p class="traits">Funnier Than Riku</p>
+                    <p class="traits">Better than riku</p>
+                    <p class="traits">Funny</p>
                 </div>
-            </motion.div>
 
         </div>
     );
