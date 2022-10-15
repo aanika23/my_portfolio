@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                 <ul className={this.state.active}>
                     <li className="nav__link__box"><a href="/" className="nav__link">Home</a></li>
                     <li className="nav__link__box"><a href="/about_me" className="nav__link">About Me</a></li>
-                    <li className="nav__link__box"><a href="#" className="nav__link">Resume</a></li>
+                    <li className="nav__link__box"><a href="/resume" className="nav__link">Resume</a></li>
                     <li className="nav__link__box"><a href="#" className="nav__link">Skills</a></li>
                     <li className="nav__link__box"><a href="#" className="nav__link">Projects</a></li>
                     <li className="nav__link__box"><a href="#" className="nav__link">Contacts</a></li>
