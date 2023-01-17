@@ -58,9 +58,7 @@ export default class Resume extends Component{
 
         return(
             <div className='resume-tab'>
-                 <TabContext value={this.state.active_tab} 
-                    
-                 >
+                 <TabContext value={this.state.active_tab}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                         <TabList onChange={this.handleChange} centered>
                             <Tab id='tababout'  label={<span style={
