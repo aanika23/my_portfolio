@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Card, CardTitle, CardText} from 'react-mdl';
+import {Card, CardTitle, CardText, CardActions} from 'react-mdl';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 import ReactWordcloud from 'react-wordcloud';
 
 import './css/resume.css';
+import ResumePDF from './image/Resume.pdf';
 
 export default class Resume extends Component{
     
@@ -61,9 +62,7 @@ export default class Resume extends Component{
                     
                  >
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <TabList onChange={this.handleChange} centered
-                            
-                        >
+                        <TabList onChange={this.handleChange} centered>
                             <Tab id='tababout'  label={<span style={
                                 { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>EXPERIENCE</span>} value='1' />
                             <Tab id='tababout'  label={<span style={
@@ -160,6 +159,23 @@ export default class Resume extends Component{
                             padding: '0px',
                         }}
                     >
+                         <Card id='downres_card' shadow={0}>
+                            <CardTitle id='downres_title'> </CardTitle>
+                            <CardText id='downres_text'> 
+                                <div className="resume-card-texts">
+                                <b id='downres_subtitle'> Full Resume </b> <br/>
+                                    In Portable Document Format <br/>
+                                </div>
+                            </CardText>
+                            <CardActions style={{backgroundColor: 'black', textAlign: "left"}} border>
+                                <a href={ResumePDF} target="_blank" rel="noopener noreferrer">
+                                    <button className='downres_button'>View PDF</button>
+                                </a>
+                                <a href={ResumePDF} download>
+                                    <button className='downres_button'>Download PDF</button>
+                                </a>
+                            </CardActions>
+                        </Card>
                         
                     </TabPanel>
                 </TabContext>

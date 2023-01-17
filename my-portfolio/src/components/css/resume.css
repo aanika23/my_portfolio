@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-#avestec_card, #greenlight_card, #seaspan_card{
+#avestec_card, #greenlight_card, #seaspan_card, #downres_card{
     position: absolute;
     top: 20vh;
     left: 7.5vw;
@@ -24,13 +24,13 @@
     background-color: transparent;
 }
 
-#avestec_title, #greenlight_title, #seaspan_title{
+#avestec_title, #greenlight_title, #seaspan_title, #downres_title{
     background-size: cover;
     background-position: center;
     height: 30vh;
 }
 
-#avestec_text, #greenlight_text, #seaspan_text{
+#avestec_text, #greenlight_text, #seaspan_text, #downres_text{
     background: -webkit-linear-gradient(#435774, #000000);
     background: linear-gradient(#435774, #000000);
     width: 100%;
@@ -79,20 +79,20 @@
     height: 50vh;
     font-family: 'Chathura', sans-serif;
     background-color: transparent;
-  }
-  .resume-card-texts{
+}
+.resume-card-texts{
     position: relative;
     top: 47%;
     transform: translateY(-50%);
-  }
-  #sfu-title{
+}
+#sfu-title{
     background-image: url('../image/sfu.jpg');
     background-size: cover;
     color: white;
     height: 30vh;
     font-family: 'Lobster', cursive;
-  }
-  #sfu-text{
+}
+#sfu-text{
     background: #ed213a;
     background: -webkit-linear-gradient(#dd1818, #000000);
     background: linear-gradient(#dd1818, #000000);
@@ -102,11 +102,11 @@
     font-family: 'Chathura', sans-serif;
     font-size: 4vh;
     line-height: 3vh;
-  }
-  .school_cards{
+}
+.school_cards{
     font-size: 6vh;
-  }
-  .hobbies{
+}
+.hobbies{
     text-align: center;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 4vh;
@@ -114,10 +114,32 @@
     top: 20vh;
     width: 85vw;
     left: 7.5vw;
-  }
+}
   
 #wordcloud{
     position: relative;
     top: 5vh;
     background-color: rgba(0,0,0,0.8);
+}
+#downres_card{
+    top: 20vh;
+    left: 37.5vw;
+}
+
+#downres_title{
+    background-image: url("../image/Resume.JPG");
+    height:40vh;
+}
+
+#downres_subtitle{
+    font-size: 4vh;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.downres_button{
+    width: 50%;
+    font-size: 3vh;
+    background-color: transparent;
+    color: white;
+
 }
