@@ -80,11 +80,11 @@ export default class Skills extends Component{
                     <Chip className='general-chip' avatar={<Avatar src="/skills/Stats.jpg"/>} label="Statistical Analysis&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/VHDL.png"/>} label="VHDL&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/Vim.png"/>} label="Vim&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='dev-chip' avatar={<Avatar src="/skills/VirtualBox.png"/>} label="Virtual Box&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='general-chip' avatar={<Avatar src="/skills/VirtualBox.png"/>} label="Virtual Box&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/VisualStudio.png"/>} label="Visual Studio Code&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='dev-chip' avatar={<Avatar src="/skills/vmware.png"/>} label="vmware&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='general-chip' avatar={<Avatar src="/skills/vmware.png"/>} label="vmware&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/OS.jpg"/>} label="Windows / Linux&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='dev-chip' avatar={<Avatar src="/skills/flutter.png"/>} label="Flutter&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='framework-chip' avatar={<Avatar src="/skills/flutter.png"/>} label="Flutter&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/matlab.png"/>} label="Matlab&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/vba.png"/>} label="VBA Excel&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/firebase.png"/>} label="Firebase&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
@@ -94,7 +94,9 @@ export default class Skills extends Component{
                     <Chip className='general-chip' avatar={<Avatar src="/skills/unitTest.png"/>} label="Unit Testing&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/unitTest.png"/>} label="UI Testing&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/beaglebone.png"/>} label="BeagleBone Green&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/dart.png"/>} label="Dart&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='framework-chip' avatar={<Avatar src="/skills/pandas.png"/>} label="Pandas&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='framework-chip' avatar={<Avatar src="/skills/matlab.png"/>} label="Matplotlib&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                 </div>
         )
     }

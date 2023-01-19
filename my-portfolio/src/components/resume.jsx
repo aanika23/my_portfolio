@@ -39,13 +39,16 @@ export default class Resume extends Component{
             { text: 'Learning', value: 40 },
             { text: 'Singing', value: 40 },
             { text: 'Baking', value: 40 },
+            { text: 'Netflix', value: 40 },
             { text: 'Badmintion', value: 50 },
+            { text: 'Eating', value: 50 },
             { text: 'Cooking', value: 50 },
             { text: 'Praying', value: 50},
             { text: 'Problem Solving', value: 60 },
             { text: 'Friends', value: 70 },
             { text: 'Stargazing', value: 80},
             { text: 'Music', value: 100 },
+            { text: 'Travelling', value: 100 },
         ];
 
         let options = {              
@@ -81,10 +84,10 @@ export default class Resume extends Component{
                                 <CardTitle id="avestec_title"> </CardTitle>
                                 <CardText id="avestec_text">
                                     <div className='resume-card-texts'>
-                                        <b className='resume-company'> Avestec Technologies </b><br/>
+                                        <br/><b className='resume-company'> Avestec Technologies </b><br/>
                                         <b className='resume-role'> Software Engineer </b><br/>
-                                        <b>February 2022 - Present </b><br/><br/>
-                                        <p>Created a program using Python Django and JavaScript to enhance drone reporting procedures which
+                                        <b className='resume-date'>February 2022 - Present </b><br/><br/>
+                                        <p className='resume-desc'>Created a program using Python Django and JavaScript to enhance drone reporting procedures which
                                              organizes flight information for graphic analysis.
                                               Also utilized Linux to update drone status and communicate with Tether Box.</p>
 
@@ -95,10 +98,10 @@ export default class Resume extends Component{
                                 <CardTitle id="greenlight_title"> </CardTitle>
                                 <CardText id="greenlight_text">
                                     <div className='resume-card-texts'>
-                                        <b className='resume-company'> Greenlight Innovations </b><br/>
+                                        <br/><b className='resume-company'> Greenlight Innovations </b><br/>
                                         <b className='resume-role'> Full-Stack Developer Intern</b><br/>
-                                        <b>May 2021 - December 2021 </b><br/><br/>
-                                        <p>Developed web applications using Python Django, JavaScript, PostgreSQL,
+                                        <b className='resume-date'>May 2021 - December 2021 </b><br/><br/>
+                                        <p className='resume-desc'>Developed web applications using Python Django, JavaScript, PostgreSQL,
                                              to allow managers and executives to view project performance reviews, and
                                             automate repetitive tasks for accounting and manufacturing departments.</p>
                                     </div>
@@ -108,10 +111,10 @@ export default class Resume extends Component{
                                 <CardTitle id="seaspan_title"> </CardTitle>
                                 <CardText id="seaspan_text">
                                     <div className='resume-card-texts'>
-                                        <b className='resume-company'> Seaspan VSY </b><br/>
+                                        <br/><b className='resume-company'> Seaspan VSY </b><br/>
                                         <b className='resume-role'> Electrical Engineer Intern </b><br/>
-                                        <b>January 2020 - April 2020 </b><br/><br/>
-                                        <p>Designed and launched a user-friendly interface and ship locator program using
+                                        <b className='resume-date'>January 2020 - April 2020 </b><br/><br/>
+                                        <p className='resume-desc'>Designed and launched a user-friendly interface and ship locator program using
                                              VBA macro that cross-references company data and organizes blocks and 
                                              compartments to provide clients with a visual representation of various ship models.</p>
 
@@ -132,9 +135,9 @@ export default class Resume extends Component{
                                     <div className="resume-card-texts">
                                         <p className='school_cards'> 
                                         <b className='resume-company'> Simon Fraser University </b> </p>
-                                        Faculty of Applied Sciences <br/>
+                                        <p className='resume-desc'>Faculty of Applied Sciences <br/>
                                         Computer Enginnering <br/>
-                                        September 2018 - December 2022 
+                                        September 2018 - December 2022 </p>
                                     </div>
                                 </CardText>
                             </Card>
@@ -186,35 +189,3 @@ export default class Resume extends Component{
 }
 
 
-{/* <Tabs>
-                    <TabList>
-                        <Tab id='tababout'>Experience</Tab>
-                        <Tab id='tababout'>Education</Tab>
-                        <Tab id='tababout'>Hobbies</Tab>
-                        <Tab id='tababout'>Resume</Tab>
-                    </TabList>
-            
-                    <TabPanel>
-                        <div className='resume-cards'>
-                            <Card id='avestec_card' shadow={0}>
-                                <CardTitle id="avestec_title"> </CardTitle>
-                                <CardText id="avestec_text">
-                                    <div className='resume-card-texts'>
-                                        <b className='resume-company'> Avestec Technologies </b>
-                                        <b className='resume-role'> Software Developer </b>
-
-                                    </div>
-                                </CardText>
-                            </Card>
-                        </div>
-                    </TabPanel>
-                    <TabPanel>
-                        <h2>Any content 2</h2>
-                    </TabPanel>
-                    <TabPanel>
-                        <h2>Any content 3</h2>
-                    </TabPanel>
-                    <TabPanel>
-                        <h2>Any content 4</h2>
-                    </TabPanel>
-</Tabs> */}
