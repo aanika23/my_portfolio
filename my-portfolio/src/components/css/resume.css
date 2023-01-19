@@ -61,6 +61,11 @@
     font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
+.resume-role, .resume-company, .resume-date, .resume-desc{
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+}
+
 #avestec_title{
     background-image: url('../image/avestec_logo.JPG') ;
 }
