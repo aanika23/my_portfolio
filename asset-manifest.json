@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.81c0a291.css",
+    "main.js": "/my_portfolio/static/js/main.625bc952.js",
+    "static/media/giphy.gif": "/my_portfolio/static/media/giphy.4c32bc9098c6493b2f89.gif",
+    "static/media/Resume.pdf": "/my_portfolio/static/media/Resume.db58734833a7fba8a961.pdf",
+    "static/media/flipper.png": "/my_portfolio/static/media/flipper.776b922a2d9d7a0d0ee9.png",
+    "static/media/profile_pic.jpg": "/my_portfolio/static/media/profile_pic.0b88d8a30fd9dc564660.jpg",
+    "static/media/homeBG.jpg": "/my_portfolio/static/media/homeBG.030aa15a5937f5e31bac.jpg",
+    "static/media/game.JPG": "/my_portfolio/static/media/game.848ba042c23bcd3f648f.JPG",
+    "static/media/sfu.jpg": "/my_portfolio/static/media/sfu.aed2606439dac0d97a41.jpg",
+    "static/media/amatic-sc-all-400-normal.woff": "/my_portfolio/static/media/amatic-sc-all-400-normal.754e547b1de5fbccbabd.woff",
+    "static/media/Resume.JPG": "/my_portfolio/static/media/Resume.14e7531382d3a707aa52.JPG",
+    "static/media/phone.png": "/my_portfolio/static/media/phone.0d54e6301db7cbc3d850.png",
+    "static/media/amatic-sc-latin-400-normal.woff2": "/my_portfolio/static/media/amatic-sc-latin-400-normal.6db660b169c766765a9f.woff2",
+    "static/media/intercom.jpg": "/my_portfolio/static/media/intercom.b5d78d71baa7227094f4.jpg",
+    "static/media/amatic-sc-latin-ext-400-normal.woff2": "/my_portfolio/static/media/amatic-sc-latin-ext-400-normal.6f66fe6c0b93c2dbeea9.woff2",
+    "static/media/amatic-sc-cyrillic-400-normal.woff2": "/my_portfolio/static/media/amatic-sc-cyrillic-400-normal.b7460742e727d5f24a89.woff2",
+    "static/media/portfolio.JPG": "/my_portfolio/static/media/portfolio.5abca93710d9231189e1.JPG",
+    "static/media/github.png": "/my_portfolio/static/media/github.4cb4bb6c899909ed4e57.png",
+    "static/media/eMinder.JPG": "/my_portfolio/static/media/eMinder.9fd5484731933c2f8661.JPG",
+    "static/media/MapHero.JPG": "/my_portfolio/static/media/MapHero.fae2c31d1190f3366066.JPG",
+    "static/media/github-hover.png": "/my_portfolio/static/media/github-hover.65a029dd14ae5c405656.png",
+    "static/media/avestec_logo.JPG": "/my_portfolio/static/media/avestec_logo.896abcc1bd3a593bcc6a.JPG",
+    "static/media/linkedin.png": "/my_portfolio/static/media/linkedin.9f9d5c26453c0f980145.png",
+    "static/media/amatic-sc-hebrew-400-normal.woff2": "/my_portfolio/static/media/amatic-sc-hebrew-400-normal.74daf388a55cca4947e8.woff2",
+    "static/media/amatic-sc-vietnamese-400-normal.woff2": "/my_portfolio/static/media/amatic-sc-vietnamese-400-normal.d0c852b92a518acd87ad.woff2",
+    "index.html": "/my_portfolio/index.html",
+    "main.81c0a291.css.map": "/my_portfolio/static/css/main.81c0a291.css.map",
+    "main.625bc952.js.map": "/my_portfolio/static/js/main.625bc952.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81c0a291.css",
+    "static/js/main.625bc952.js"
+  ]
+}
