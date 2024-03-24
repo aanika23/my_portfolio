@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-#avestec_card, #greenlight_card, #seaspan_card, #downres_card{
+#avestec_card, #greenlight_card, #seaspan_card, #downres_card, #mda_card{
     position: absolute;
     top: 20vh;
     left: 7.5vw;
@@ -24,13 +24,13 @@
     background-color: transparent;
 }
 
-#avestec_title, #greenlight_title, #seaspan_title, #downres_title{
+#avestec_title, #greenlight_title, #seaspan_title, #downres_title, #mda_title{
     background-size: cover;
     background-position: center;
     height: 30vh;
 }
 
-#avestec_text, #greenlight_text, #seaspan_text, #downres_text{
+#avestec_text, #greenlight_text, #seaspan_text, #downres_text, #mda_text{
     background: -webkit-linear-gradient(#435774, #000000);
     background: linear-gradient(#435774, #000000);
     width: 100%;
@@ -42,11 +42,11 @@
     left: 3%;
 }
 
-#seaspan_card{
+#greenlight_card{
     left: 67.5vw;
 }
 
-#greenlight_card{
+#avestec_card{
     top: 20vh;
     left: 37.5vw;
 }
@@ -74,6 +74,9 @@
 }
 #seaspan_title{
     background-image: url('../image/seaspan_logo.png');
+}
+#mda_title{
+    background-image: url('../image/mda_logo.jpg') ;
 }
 
 #SFU-card{

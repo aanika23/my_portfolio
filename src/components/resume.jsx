@@ -9,6 +9,7 @@ import ReactWordcloud from 'react-wordcloud';
 
 import './css/resume.css';
 import ResumePDF from './image/Resume.pdf';
+import { resume_data } from './resume_data';
 
 export default class Resume extends Component{
     
@@ -43,7 +44,8 @@ export default class Resume extends Component{
             { text: 'Badmintion', value: 50 },
             { text: 'Eating', value: 50 },
             { text: 'Cooking', value: 50 },
-            { text: 'Praying', value: 50},
+            { text: 'Praying', value: 30},
+            { text: 'Crocheting', value: 50},
             { text: 'Problem Solving', value: 60 },
             { text: 'Friends', value: 70 },
             { text: 'Stargazing', value: 80},
@@ -80,47 +82,26 @@ export default class Resume extends Component{
                         }}
                     >
                         <div className='resume-cards'>
-                            <Card id='avestec_card' shadow={0}>
-                                <CardTitle id="avestec_title"> </CardTitle>
-                                <CardText id="avestec_text">
-                                    <div className='resume-card-texts'>
-                                        <br/><b className='resume-company'> Avestec Technologies </b><br/>
-                                        <b className='resume-role'> Software Engineer </b><br/>
-                                        <b className='resume-date'>February 2022 - Present </b><br/><br/>
-                                        <p className='resume-desc'>Created a program using Python Django and JavaScript to enhance drone reporting procedures which
-                                             organizes flight information for graphic analysis.
-                                              Also utilized Linux to update drone status and communicate with Tether Box.</p>
+                            {resume_data.map((item, index)=>{
+                                return(
+                                    <Card id={item.card_id} key={index} shadow={0}>
+                                        <CardTitle id={item.card_title}> </CardTitle>
+                                        <CardText id={item.card_text}>
+                                            <div className='resume-card-texts'>
+                                                <br/><b className='resume-company'> {item.company_title} </b><br/>
+                                                <b className='resume-role'> {item.job_title} </b><br/>
+                                                <b className='resume-date'>{item.job_date}</b><br/><br/>
+                                                <p className='resume-desc'>{item.job_description}</p>
 
-                                    </div>
-                                </CardText>
-                            </Card>
-                            <Card id='greenlight_card' shadow={0}>
-                                <CardTitle id="greenlight_title"> </CardTitle>
-                                <CardText id="greenlight_text">
-                                    <div className='resume-card-texts'>
-                                        <br/><b className='resume-company'> Greenlight Innovations </b><br/>
-                                        <b className='resume-role'> Full-Stack Developer Intern</b><br/>
-                                        <b className='resume-date'>May 2021 - December 2021 </b><br/><br/>
-                                        <p className='resume-desc'>Developed web applications using Python Django, JavaScript, PostgreSQL,
-                                             to allow managers and executives to view project performance reviews, and
-                                            automate repetitive tasks for accounting and manufacturing departments.</p>
-                                    </div>
-                                </CardText>
-                            </Card>
-                            <Card id='seaspan_card' shadow={0}>
-                                <CardTitle id="seaspan_title"> </CardTitle>
-                                <CardText id="seaspan_text">
-                                    <div className='resume-card-texts'>
-                                        <br/><b className='resume-company'> Seaspan VSY </b><br/>
-                                        <b className='resume-role'> Electrical Engineer Intern </b><br/>
-                                        <b className='resume-date'>January 2020 - April 2020 </b><br/><br/>
-                                        <p className='resume-desc'>Designed and launched a user-friendly interface and ship locator program using
-                                             VBA macro that cross-references company data and organizes blocks and 
-                                             compartments to provide clients with a visual representation of various ship models.</p>
+                                            </div>
+                                        </CardText>
+                                    </Card>
+                                )
+                                
+                            })}
+                            
 
-                                    </div>
-                                </CardText>
-                            </Card>
+                           
                         </div>
                     </TabPanel>
                     <TabPanel value="2"
