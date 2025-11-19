@@ -103,6 +103,7 @@ export default class Resume extends Component{
 
                            
                         </div>
+                        
                     </TabPanel>
                     <TabPanel value="2"
                         sx={{

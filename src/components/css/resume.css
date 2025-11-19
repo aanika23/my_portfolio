@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-#avestec_card, #greenlight_card, #seaspan_card, #downres_card, #mda_card{
+#telesat_card, #greenlight_card, #seaspan_card, #downres_card, #mda_card, #avestec_card, #terrasense_card{
     position: absolute;
     top: 20vh;
     left: 7.5vw;
@@ -24,13 +24,13 @@
     background-color: transparent;
 }
 
-#avestec_title, #greenlight_title, #seaspan_title, #downres_title, #mda_title{
+#telesat_title, #greenlight_title, #seaspan_title, #downres_title, #mda_title, #avestec_title, #terrasense_title{
     background-size: cover;
     background-position: center;
     height: 30vh;
 }
 
-#avestec_text, #greenlight_text, #seaspan_text, #downres_text, #mda_text{
+#telesat_text, #greenlight_text, #seaspan_text, #downres_text, #mda_text, #avestec_text, #terrasense_text{
     background: -webkit-linear-gradient(#435774, #000000);
     background: linear-gradient(#435774, #000000);
     width: 100%;
@@ -42,14 +42,23 @@
     left: 3%;
 }
 
+#telesat_card{
+    left: 37.5vw;
+}
+
 #greenlight_card{
+    top: 85vh;
+    left: 37.5vw;
+}
+
+#mda_card{
     left: 67.5vw;
 }
 
 #avestec_card{
-    top: 20vh;
-    left: 37.5vw;
+    top: 85vh;
 }
+
 .resume-company{
     font-size: 4vh;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -66,8 +75,8 @@
     margin-right: 0.5vw;
 }
 
-#avestec_title{
-    background-image: url('../image/avestec_logo.JPG') ;
+#telesat_title{
+    background-image: url('../image/telesat_logo.jpg') ;
 }
 #greenlight_title{
     background-image: url('../image/greenlight_logo.png');
@@ -77,6 +86,14 @@
 }
 #mda_title{
     background-image: url('../image/mda_logo.jpg') ;
+}
+
+#avestec_title{
+    background-image: url('../image/avestec_logo.JPG') ;
+}
+
+#terrasense_title{
+    background-image: url('../image/terrasense_logo.png') ;
 }
 
 #SFU-card{

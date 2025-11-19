@@ -21,7 +21,7 @@ export default class Contacts extends Component  {
                         <div id="about_me_container">
                             <div id="about_me_text_container">
                                 <p id="header_main" className='about_text'>Anika Sheikh</p>
-                                <p id="header_sub" className='about_text'>Software Engineer at MDA Space</p>
+                                <p id="header_sub" className='about_text'>Software Engineer at Telesat LEO</p>
                             </div>
                             <div id='contact-div'>
                                 <Link href='https://github.com/aanika23' target="_blank" rel="noopener noreferrer" onClick={this.github}><div className='contact_icons' onClick={this.github}></div></Link>

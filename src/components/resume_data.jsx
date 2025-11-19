@@ -1,11 +1,29 @@
 export const resume_data = [
     {
+        card_id: "terrasense_card",
+        card_title: "terrasense_title",
+        card_text: "terrasense_text",
+        company_title: "TerraSense Analytics",
+        job_title: "Software Enginner",
+        job_date: "June 2025 - November 2025",
+        job_description: "Developed and enhanced real-time defense AI detection software by building OpenDDS communication modules, refactoring core architecture, improving GStreamer-based tracking, and implementing Kubernetes/Grafana observability."
+    },
+    {
+        card_id: "telesat_card",
+        card_title: "telesat_title",
+        card_text: "telesat_text",
+        company_title: "Telesat LEO",
+        job_title: "Software Enginner",
+        job_date: "October 2024 - June 2025",
+        job_description: "Designed and implemented command-line interface (CLI) in C++20 to enable direct satellite debugging, improving operational efficiency. Additionally automated GitLab CI/CD processes, optimizing build and deployment pipelines."
+    },
+    {
         card_id: "mda_card",
         card_title: "mda_title",
         card_text: "mda_text",
         company_title: "MDA Space",
         job_title: "Software Enginner",
-        job_date: "March 2023 - Present",
+        job_date: "March 2023 - October 2024",
         job_description: "Developed C++ flight mapping menu for GPD software, ensuring standardization. Collaborated on fullstack optimization, reducing mapping time and enabling seamless communication. Implemented features for accessing saved procedures, boosting efficiency by 50%."
     },
     {
