@@ -98,10 +98,7 @@ export default class Resume extends Component{
                                     </Card>
                                 )
                                 
-                            })}
-                            
-
-                           
+                            })}                           
                         </div>
                         
                     </TabPanel>

@@ -43,5 +43,14 @@ export const resume_data = [
         job_title: "Full-Stack Developer Intern",
         job_date: "May 2021 - December 2021",
         job_description: "Developed web applications using Python Django, JavaScript, PostgreSQL, to allow managers and executives to view project performance reviews, and automate repetitive tasks for accounting and manufacturing departments."
+    },
+    {
+        card_id: "seaspan_card",
+        card_title: "seaspan_title",
+        card_text: "seaspan_text",
+        company_title: "Seaspan ULC",
+        job_title: "Electrical Engineering Intern",
+        job_date: "January 2020 - April 2020",
+        job_description: "Designed internal tools using VBA, including a cross-department data interface and a ship-locator program that visually maps blocks and compartments, improving data accessibility and understanding of ship models."
     }
 ]

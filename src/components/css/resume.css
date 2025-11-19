@@ -59,6 +59,11 @@
     top: 85vh;
 }
 
+#seaspan_card{
+    top: 85vh;
+    left: 67.5vw;
+}
+
 .resume-company{
     font-size: 4vh;
     font-family: 'ZCOOL QingKe HuangYou', cursive;

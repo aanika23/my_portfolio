@@ -16,12 +16,12 @@ export default class Contacts extends Component  {
         return (
             <div>
                 <div id="id_card">
-                    <img id="image_holder" src={profile_pic}></img>
+                    <img id="image_holder" src={profile_pic} alt='headshot'></img>
                     <div id="about_outside_div">
                         <div id="about_me_container">
                             <div id="about_me_text_container">
                                 <p id="header_main" className='about_text'>Anika Sheikh</p>
-                                <p id="header_sub" className='about_text'>Software Engineer at Telesat LEO</p>
+                                <p id="header_sub" className='about_text'>Software Engineer</p>
                             </div>
                             <div id='contact-div'>
                                 <Link href='https://github.com/aanika23' target="_blank" rel="noopener noreferrer" onClick={this.github}><div className='contact_icons' onClick={this.github}></div></Link>
